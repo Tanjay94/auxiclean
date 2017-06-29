@@ -37,7 +37,7 @@ class Selector:
 
     def input_choices(self, list_equalities, nchoices, course):
         while True:
-            print("Des égalités sont présentes pour le cours %s." % course)
+            print("Des egalites sont presentes pour le cours %s." % course)
             print("Il faut choisir %i candidat(e)s parmis:" % nchoices)
             for i, c in enumerate(list_equalities):
                 print("%i: %s" % (i + 1, c))
